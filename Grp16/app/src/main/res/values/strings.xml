@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Assignment!</string>
+    <string name="calculate">Calculate</string>
+    <string name="hourly_rate">Hourly Rate</string>
+    <string name="hours_worked">Hours Worked</string>
+    <string name="menu">Menu</string>
+    <string name="detail">Details</string>
+    <string name="map">Map</string>
+    <string name="about">About</string>
+    <string name="logo">Logo</string>
+    <string name="loading_please_wait">Loading Please Wait</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="_123_main_street_cityville_country">123 Main Street, Cityville, Country</string>
+    <string name="welcome_to_our_restaurant_we_offer_delicious_and_diverse_cuisine">Welcome to our restaurant! We offer delicious and diverse cuisine.</string>
+    <string name="phone_1_555_123_4567">Phone: +1 (555) 123-4567</string>
+    <string name="restaurant_address">Restaurant Address</string>
+    <string name="restaurant_directions">Directions</string>
+
+</resources>
