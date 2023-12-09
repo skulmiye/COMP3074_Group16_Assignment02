@@ -1,11 +1,10 @@
-// App.js
 import React, { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import MainScreen from './screens/MainScreen';
-import RestaurantDetails from './screens/RestaurantDetails';
-import LoadingScreen from './screens/LoadingScreen'; 
-
+import MainScreen from './components/MainScreen';
+import RestaurantDetails from './components/RestaurantDetails';
+import LoadingScreen from './components/LoadingScreen';
+import AboutScreen from './components/AboutScreen';
 const Stack = createStackNavigator();
 
 const App = () => {
@@ -31,7 +30,7 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen name="MainScreen" component={MainScreen} />
         <Stack.Screen name="RestaurantDetails" component={RestaurantDetails} />
-       
+       <Stack.Screen name="AboutScreen" component={AboutScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

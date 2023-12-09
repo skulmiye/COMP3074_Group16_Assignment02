@@ -1,4 +1,3 @@
-// AboutScreen.js
 import React from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -9,10 +8,9 @@ const AboutScreen = ({ studentInfo, onAboutClose }) => {
 
   return (
     <View style={styles.container}>
-    
       <Appbar.Header style={styles.appbar}>
-        <Appbar.BackAction onPress={() => onAboutClose()} />
-        <Appbar.Content title="About" />
+        <Appbar.BackAction onPress={() => onAboutClose()} color="#fff" />
+        <Appbar.Content title="About" titleStyle={styles.appbarTitle} />
       </Appbar.Header>
 
       <FlatList
@@ -31,23 +29,27 @@ const AboutScreen = ({ studentInfo, onAboutClose }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'black', 
+    backgroundColor: '#3498db',
   },
   appbar: {
-    backgroundColor: 'black', 
+    backgroundColor: '#2980b9',
+  },
+  appbarTitle: {
+    color: '#fff',
   },
   itemContainer: {
     padding: 16,
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: '#fff',
   },
   itemText: {
     fontSize: 16,
-    color: 'white', 
+    color: '#fff',
   },
 });
 
 export default AboutScreen;
+
 
 
 
